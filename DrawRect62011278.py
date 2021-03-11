@@ -14,7 +14,7 @@ class simple_drawing_window(QWidget):
 		p.begin(self)
 		
 		
-		
+		#nonono
 		
 		p.setPen(QColor(0,0,0))
 		p.setBrush(QColor(110,110,0))
