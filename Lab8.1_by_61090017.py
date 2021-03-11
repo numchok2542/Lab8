@@ -32,7 +32,7 @@ def main():
 
 	w = simple_drawing_window()
 	w.show()
-
+###yyyyyyy
 	return app.exec_()
 
 if __name__ == "__main__":
