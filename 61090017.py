@@ -19,7 +19,7 @@ class simple_drawing_window(QWidget):
 			[QPoint(100,100), QPoint(100,110), 
 			QPoint(130, 100), QPoint(100,150),]
 		)
-		
+		#111
 		p.setPen(QColor(255,0,0))
 		p.setBrush(QColor(255,0,0))
 		p.drawPie(50,150,100,100,0,180 * 32)
