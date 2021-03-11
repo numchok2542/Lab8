@@ -11,7 +11,7 @@ class simple_drawing_window(QWidget):
 	
 	def paintEvent(self, e):
 		p = QPainter()
-		p.begin(self)
+		p.begin(self)#liljk
 		
 		p.setPen(QColor(0,0,0))
 		p.setBrush(QColor(0,255,0))
