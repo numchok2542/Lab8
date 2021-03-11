@@ -6,7 +6,7 @@ from PySide6.QtGui import *
 class simple_drawing_window(QWidget):
 	def __init__(self):
 		QWidget.__init__(self, None)
-		self.setWindowTitle("Simple Drawing")
+		self.setWindowTitle("Simple Drawing")#nnck
 		self.rabbit = QPixmap("images/rabbit.png")
 	
 	def paintEvent(self, e):
