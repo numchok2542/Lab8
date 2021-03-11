@@ -1,13 +1,13 @@
 import sys
-from PySide2.QtCore import *
-from PySide2.QtWidgets import *
-from PySide2.QtGui import *
+from PySide6.QtCore import *
+from PySide6.QtWidgets import *
+from PySide6.QtGui import *
 
 class Simple_drawing_window(QWidget):
     def __init__(self):
         QWidget.__init__(self, None)
         self.setWindowTitle('Simple Drawing')
-        self.rabbit = QPixmap('images/Pekora.png')
+        self.rabbit = QPixmap('images/Pekora.jpg')
 
     def paintEvent(self, e):
         p = QPainter()
@@ -29,7 +29,7 @@ class Simple_drawing_window(QWidget):
             QPoint(50, 125), QPoint(0, 85),]
         )
 
-        p.drawPixmap(QRect(200, 100, 320, 320), self.rabbit)
+        p.drawPixmap(QRect(200, 70, 350, 400), self.rabbit)
         p.end()
 
 def main():
